@@ -1,0 +1,79 @@
+Module 0: Introduction
+======================
+
+- HCI is an interdisciplinary subject
+  - Involves technology, design, sociology, psychology, anthropology, etc.
+  - Most of us are from engineering or IT and come with a strong background 
+    in technology and little else
+
+- What is HCI (Human-Computer Interaction)?
+  - Human -> input -> Computer -> feedback -> Human -> ...
+  - Concerned with Design, Evaluation, and Implementation
+  - Human
+    - Users, single, group working together, sequence
+    - User tries to complete a task
+  - Computer
+    - Technology, not just Desktop computer
+    - Systems: Large-scale computer, Process control, Embedded
+  - Interaction
+    - Communication, direct/indirect
+    - Dialogue + feedback/batch
+    - Task oriented
+
+- Who Contributes to HCI?
+  - Computer scientists
+  - Psychologists
+  - Software engineer
+  - Linguists and philosophers
+  - Artificial intelligence researchers
+  - Ergonomists
+  - Sociologists and anthropologists
+
+- Why Study HCI?
+  - Major part of work for real software 
+  - At a company you work on real software
+  - Bad UIs cost
+  - User interfaces are hard to get right
+
+- Why Hard to Design UIs?
+  - No silver bullet
+    (straightforward solution to have extreme effectiveness,
+     for productivity, quality and control)
+  - User Interface design is a creative process
+  - Designers have difficulty thinking like users
+  - It is easy to make things hard.
+    It is hard to make things easy.
+
+- The Inmates are Running the Asylum
+  - Author: Alan Cooper
+  - Part of the problem is that programmers and Engineers are in 
+    charge of designing software, but engineers often are not 
+    representative of the users
+
+- User Population Distribution
+  - Power User
+    People know&use the advanced features
+    (Such users are often engineers, and the ones who write software)
+  - Computer Literate
+  - Everyone else
+
+- Features vs. Easy to Use
+  - One problem: software developers tend to equate features with design
+  - This is not necessarily the case
+  - Sometimes, less is more . . .MP3 player again...
+
+- Product Triangle
+  - Capability (Engineering)
+  - Viability (Business)
+  - Desirability (Design)
+
+- Rethinking Design
+  - Users Goal
+  - Corporate Goal
+  - Programmers Goal
+
+- Recommendations
+  - Have design at the Heart
+  - Separate UI from Programming
+  - People-oriented design
+  - software engineers: I am not the user
