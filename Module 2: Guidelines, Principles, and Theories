@@ -1,0 +1,456 @@
+Module 2: Guidelines, Principles, and Theories
+==============================================
+
+- Overview
+  - Guidelines
+    - Design-level
+    - narrowly (specific) focused rules
+    - good and consistent design
+  - Principles
+    - Middle-level
+    - widely applicable and enduring
+    - analyzing and comparing design alternative
+  - Theories
+    - High-level
+    - tested, proven, broadly useful
+    - describes objects and actions with consistent terminology, e.g., prediction
+
+- Why have guidelines, principles, and theories?
+  - Help keep our UI designs focused and consistent
+  - Help avoid and remedy mistakes
+    e.g. cluttered display, tedious procedures, inadequate functionalities, etc.
+  - Provide theories and high-level description of interaction and design
+
+
+-----------------------------------
+
+- Guidelines
+  - basics:
+    - developed in the early days
+    - best practices
+    - from experience
+    - good starting pt for projects
+    - a shared language
+  - three components:
+    - specific and practical rules
+      - provides cures for design problems
+      - provides cautions for potential danger
+      - reminders based on experience
+    - guideline examples
+      - give details on how a design must be performed, e.g., style, color usage, etc.
+      - interaction usage (using check-boxes, buttons, etc)
+      - require all developers to follow the guidelines
+    - guideline documents
+      - any serious large-scale UI design should have
+      - shared language for developers and customers
+      - allows consistency
+      - not trivial to make
+      - can specify things, e.g., input and output formats, action sequences, etc.
+      - Pros:
+        Builds upon experience
+        Continued improvements
+      - Cons:
+        Too specific
+        Hard to innovate
+        Not applicable/realistic to the situation
+        Hard to apply
+  - five cases:
+    - Navigating the Interface
+      - Example from National Cancer Institute (NCI)
+      - Some guidelines established by the NCI website developers
+        - Standardize task sequences
+        - embedded links are descriptive
+        - use unique and descriptive headings
+        - radio button - mutually exclusive choice
+        - check box - binary choice
+        - pages can print properly
+        - thumbnail images for preview
+
+    - Guidelines for Disabled
+      - text alternatives for non-text element
+        changed to other readable forms
+      - time-based multimedia provides equivalent synchronized alternatives
+      - all color info is available without color
+      - title each frame, facilitating frame identification and navigation
+      - enables screen readers
+
+    - Organizing the Display
+      - Consistency of data display
+      - Efficient information assimilation by the user (presentation format)
+      - Minimal memory load on the user
+        - Minimal/No carry information over from one screen to another
+        - Require fewer actions
+        - Labels and common formats should be provided for novice
+      - Compatibility of data display with data entry
+      - Flexibility for user control of data display
+      - Only a starting point -> special case
+
+    - Get the user's attention!!
+      - Urgent, exceptional, and time-dependent conditions
+      - considerations:
+        - Intensity:     two levels only, limited use of high intensity
+        - Marking:       underlines, enclose it in a box, arrows, asterisk, bullet, dash
+        - Size:          Up to 4 sizes
+        - Fonts:         3 fonts
+        - Inverse video: inverse coloring
+        - Blinking:      2-4 Hz
+        - Colors:        Up to 4 standard colors
+        - Audio:         soft and harsh tones
+      - Danger in overusing the above
+        - Novices need simple, logically organize, well labeled displays
+        - Experts want shorter labels, etc. -> extract data
+
+    - Facilitate Data Entry
+      - Consistency of data-entry transactions
+      - Minimal input actions by user
+        - Fewer actions = greater productivity and less error
+        - Avoid redundant data entry
+      - Minimal memory load
+        - Don't use codes
+        - Provide selection from a list or embedded menu
+      - Compatibility of data entry with data display
+      - Flexibility for user control
+
+
+-----------------------------------
+
+- Principles
+  - Five topics:
+    - Fundamental principles for all UI: Users & Tasks
+      - Determine user's skill levels
+      - Identify the tasks of the application
+    - Five primary Interaction Styles
+    - Eight Golden Rules of interface design
+    - Prevention of errors
+    - Automation VS human control
+
+  - Determine user's skill levels
+    - Simple idea but difficult, and always undervalued
+    - Start with population profile
+    - Design goals based on skill level
+      - Novice or first-time users
+        - Inexperience with interface
+        - Anxiety: learning to use computers
+        - Solutions
+          - Restrict vocabulary with consistency
+          - Instructions, dialog boxes, and online help
+          - Small number of actions
+          - Positive reinforcement (feedback -> relief)
+          - Feedback
+          - Error messages: specific, helpful, and constructive
+          - More help: Video demonstrations, online tutorials,
+            carefully-designed user document
+      - Knowledgeable intermittent users
+        - understand task concepts and interface basics
+        - but difficulty retaining menu structure and features
+        - Solutions:
+          - Orderly structure in menus
+          - Consistent sequences of actions and terminology
+          - Meaningful messages
+          - Guides to frequent patterns of usage
+          - Protection from danger (encourage exploration)
+          - Context dependent help
+      - Expert frequent users
+        - Goal is efficiency (high speed, low error)
+        - Solutions:
+          - Rapid response time
+          - Brief and non-distracting feedback
+          - Shortcuts
+          - Macros, abbreviations and other accelerator
+    - Multiple Classes
+      - multi-layer (aka level-structured or spiral)
+        - Novices use a minimal subset of   commands, actions, and objects
+        - Can gradually move up when they feel comfortable
+      - involves manuals, help screens, errors messages, tutorials, feedback, etc.
+      - Users to choose - Expand control to accommodate different users
+
+  - Identify the tasks
+    - set of tasks must be determined before design can proceed
+    - need: observing and interviewing users
+    - Decomposition of high-level tasks into atomic actions
+      - Atomicity of tasks is important to consider
+        - Too small = too many steps (inefficient, frustrating)
+        - Too many  = need special cases, inflexible, frustrating
+    - Need to study relative task frequencies
+      - Task frequency
+        - High frequency = simple, quick, even if it slows other tasks down
+        - Special keys vs. Ctrl + key vs. menu selections
+      - Task vs. Job Frequency Matrix
+        (User-needs assessment)
+        - what tasks are essential for the design
+        - which ones to left out for system simplicity and ease of learning
+
+  - Choose Interaction Style
+    - Direct Manipulation
+      - Manipulate visual representations
+      - Appealing to novices and easy to remember for intermittent users
+    - Menu Selection
+      - reads a list of items, and selects one (usually)
+      - Appropriate for novice and intermittent users
+    - Form-fill in
+      - Data entry into fields
+      - Most appropriate for knowledgeable intermittent users or frequent users
+    - Command Language
+      - Suitable for expert frequent users
+      - a complex set of semantics and syntax
+    - Natural Language
+      - Computers will respond properly to arbitrary natural language 
+        sentences or phrases
+      - unpredictable, requires clarification dialog, technology is not 
+        fully developed
+
+  - Golden rules
+    - Strive for consistency
+      - Consistent sequence of actions for similar situations
+      - Identical Terminology (prompts, menus, help)
+      - Consistent visual layout
+    - Cater to universal usability
+      - Design for plasticity
+        - content can be used on any type of display
+      - Interface supports with features from Novice to Expert
+      - Usable by Disabled
+    - Offer informative feedback
+      - For every user action, system should provide feedback
+      - Frequency of task affects feedback type
+        - Common tasks: modest feedback
+        - Errors/uncommon tasks: substantial feedback
+      - Visual approaches make feedback easy
+    - Design dialogs to yield closure
+      - Action sequences should have a beginning, middle, and end
+      - Feedback provides a sense of accomplishment
+    - Prevent errors
+      - Limit errors a user can make
+      - In case of errors -> Detect, instructions, and keep system state
+    - Permit easy reversal of actions
+      - As much as possible, actions should be reversible
+      - Design decision should include
+        - History size
+        - What does it mean to undo something?
+      - Let the user know
+    - Support internal locus of control
+      - Experienced users want to feel in control
+      - Else builds anxiety and dissatisfaction
+      - Avoid acausality, make users initiators rather than responders
+    - Reduce short term memory
+      - Rule of thumb: Humans can remember 7 +/- 2 chunks of information
+      - Keep display simple
+      - Minimal or avoid information carry-over from one screen to another
+      - provide online access to syntax, e.g., commands, abbrev., etc.
+
+  - Prevent Errors
+    - Error affects productivity but higher than expected
+    - How UI can help
+      - Better Error Messages
+      - Reduce chance for error
+        - Organizing info, screens, menus
+        - Commands and menu choices should be distinctive
+        - State of the interface should be known (change cursor when busy)
+        - Consistency of actions (Yes/No order of buttons)
+        - Correct actions
+          e.g., forbid users from doing wrong, automatic command completion
+        - Complete Sequences
+        - Universal Usability can help lower errors
+
+  - Automation while Preserving User Control
+    - Why automation?
+      - Increases over time as procedures become standardized
+      - Improves speed / performance / productivity
+      - Reduces error and user workload
+    - Why human?
+      - facts:
+        - Real world - open system (unpredictable and sys. failures)
+        - Computers - closed system (predefined set of actions)
+      - Human for
+        - Unexpected situations
+        - Preserve safety
+        - Avoid failures
+        - Increase product quality
+    - How can you be sure that the system can handle what will happen?
+      - Regression testing
+      - User testing
+    - Doing Human and Computer Integration:
+      - Predictable
+      - Controllable
+      - Balance: between human and computer control
+    - Successful integration:
+      - Users can avoid:
+        Routine, tedious, and error prone tasks
+      - Users can concentrate on:
+        Making critical decisions, coping with unexpected situations,
+        and planning future actions
+
+
+-----------------------------------
+
+- Theories
+  - Introduction
+  - Topics:
+    - Foley and van Dam four-level approach
+    - Stages of action models by Donald Norman
+    - GOMS - Theory of User Interaction
+    - Consistency through grammars 
+    - Contextual Theories
+    - Object/Action Interface model
+
+  - Introduction
+    - Ratio completion time of novice to expert users can be 
+      as high as: 100 to 1
+    - Not many other fields or problems have this disparity
+    - Types of theory:
+      - Descriptive
+      - Explanatory
+      - Prescriptive
+      - Predictive
+    - Another grouping:
+      - motor
+      - perceptual
+      - cognitive
+    - Taxonomy
+      - Part of a descriptive or exploratory theory
+      - Classify a real world system into understandable categories
+      - More examples:
+        - Task: structured / unstructured, novel / regular
+        - Personality: convergent / divergent, field-independent / independent
+        - User experience: novice, knowledgeable, expert
+        - Technical aptitude: spatial visualization, reasoning
+      - Advantages:
+        - Facilitate comparisons, organize topics, consistent terminology, etc.
+
+  - Foley and van Dam four-level approach 
+    - Design-by-levels - four levels:
+      - Conceptual level:
+        User's mental model of the interactive system
+      - Semantic level:
+        Describes the meanings conveyed by the user's command input and by 
+        the computer's output display
+      - Syntactic level:
+        Defines how the units (words) that convey semantics are assembled into a 
+        complete sentence that instructs the computer to perform a certain task
+      - Lexical level:
+        Deals with device dependencies and with the precise mechanisms by which 
+        a user specifies the syntax
+    - This approach is convenient for designers
+      - Top-down nature is easy to explain
+      - Matches the software architecture
+      - Allows for useful modularity during design
+        (Decompose objects as well as actions)
+    - Very effective in the early days of computing
+      - Command-line input was common
+      - Had to write low-level syntax and lexical-analysis programs.
+    - Today less relevant
+      - Modern UI standards and toolkits reduced the need to design or 
+        implement syntactic and lexical levels
+
+  - Stages of action models by Donald Norman
+    - Seven stages of action theory: Provides a cycle theory of usage
+      - Forming the goal
+      - Execution
+        - Forming the intention
+        - Specifying the action
+        - Executing the action
+      - Evaluation
+        - Perceiving the system state
+        - Interpreting the system state
+        - Evaluating the outcome
+    - This theory leads to
+      - Gulf of execution:
+        Mismatch between the user's intentions and the allowable actions
+      - Gulf of evaluation:
+        Mismatch between the system's representation and the users' expectations
+    - Prediction:
+      - Four critical points where user failures can occur 
+        - Users can form an inadequate goal 
+        - Might not find the correct interface object because of an 
+          incomprehensible label or icon
+        - May not know how to specify or execute a desired action
+        - May receive inappropriate or misleading feedback 
+    - To avoid Gulf errors, the following is proposed:
+      (Four principles of good design)
+        - Have a good conceptual model with a consistent system image
+        - State and the action alternatives should be visible 
+        - Interface should include good mappings that reveal the relationships 
+          between stages 
+        - User should receive continuous feedback 
+
+  - GOMS - Theory of User Interaction
+    - Purpose:
+      - Decomposing user actions into small measurable steps
+      - Predictive approach: time required for complex tasks by adding up 
+        the time for each component action
+    - What is GOMS:
+      - Goals
+        - Want to edit document
+        - sub-goal: want to delete text
+      - Operators
+        - Basic unit of work for the users
+      - Methods
+        - Actually tasks needed to perform some goal or sub-goal
+        - composed of operators
+      - Selection-Rules
+        - Control structure (could be mental) that selects between different 
+          methods to achieve a goal
+    - Keystroke Level GOMS
+      - Simplified version of GOMS 
+      - estimates up time to perform a goal by summing up error-free times 
+        for key-stroke press, mouse movement, visual verification, etc.
+    - Advantages:
+      - Allows UI designers to choose between alternative designs by 
+        predicting performances for expert users
+    - Drawbacks to CMN-GOMS
+      - Considers expert use only (no mistakes and fully focused)
+      - Actual times may not be accurate
+
+  - Consistency through grammars
+    - Consistent user interface goal 
+      - For both objects and actions
+      - Sometimes, advantageous to be inconsistent
+        E.g. to draw attention to a dangerous operation
+    - Inconsistent action verbs 
+      - Take longer to learn 
+      - Cause more errors 
+      - Slow down users 
+      - Harder for users to remember 
+    - One solution is to use grammars, e.g.,
+      - Task-Action Grammars (TAGs)
+        - Try to characterize a complete set of tasks.
+
+  - Contextual Theories
+    - Idea: Social and physical space
+      - Physical and social environments are inextricably intertwined 
+        with the use of information and technologies
+      - Users' behavior highly responsive to other people and to 
+        environment contingencies
+      - Distributed cognition: Knowledge not only in users' minds, but 
+        also distributed in the environments
+      - Ubiquitous, pervasive and embedded computing devices or user 
+        interface
+    - Relevance:
+      - Mobile devices or ubiquitous computing environments
+      - Place-specific information, e.g., city guide on smartphone, etc.
+    - Taxonomy of mobile device applications
+      - Five pairs of actions (tied to a variety of objects):
+        - Monitor and alert
+        - Gather and spread
+        - Participate and related
+        - Locate and identify
+        - Capture and share
+
+  - Object/Action Interface model
+    - Syntactic-semantic model of human behavior
+      - Semantic
+        User knows a set of distinct meaningful semantic concepts
+        e.g, cut-and-paste, open file, close file, move object, delete object, ...
+      - Syntactic 
+        User knows a set of actions (or keywords) to achieve semantic concepts
+    - With GUI interfaces, emphasis shifts from command language and intricate 
+      syntax to simple "Direct manipulation" of applied visual representations 
+      of objects and actions
+    - Object-Action model
+      - The user first selects an object and then selects (or performs) action 
+        on the selected object
+    - Object-Action design
+      - Understand the task
+        real-world objects
+        actions applied to those object
+      - Create metaphoric representations of interface objects and actions
+      - Designer makes interface actions visible to users
