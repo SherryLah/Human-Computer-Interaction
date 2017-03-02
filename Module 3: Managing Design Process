@@ -1,0 +1,232 @@
+Module 3: Managing Design Process
+=================================
+
+- Overview: Five Topics
+  - Organizational Design
+  - Four Pillars of Design
+  - Development Methodologies
+  - User studies and Observations 
+  - Legal Issues
+
+
+------------------------------------------
+
+- Organizational Design
+  - Background: Business Cases
+    - IBM business reports (1994)
+      - Reduced development cost
+      - Reduced maintenance cost
+      - Increased revenue due to user satisfaction
+      - Improved user efficiency
+    - productivity can increase by 720% when design and usability 
+      are kept in mind from the beginning
+    - Correcting 20 faults increases user success rate
+  - Currently, Most large corporations have:
+    - Usability Engineers and UI architects
+    - human-factors groups and Usability Labs
+    - future: Chief Usability Officer
+  - Organizational Design
+    - Usability engineering: a recognized discipline
+    - Return on Investment for usability testing
+    - Usability Professional's Association (UPA)
+      - World Usability Day
+    - Design is inherently creative and unpredictable:
+    - Interactive system designers must blend
+      - knowledge of technical feasibility
+      - mystical esthetic sense of what attracts users
+  - Design characterization: Dynamic!
+    - a process, not a state
+    - nonhierarchical, nor bottom-up or top-down
+    - radically transformational
+    - Design intrinsically involves the discovery of new goals
+
+ 
+------------------------------------------
+
+- Four Pillars of Design
+  - Pillar 1: UI Requirements
+    - What
+      - A clear specification of the user community
+      - Tasks the users perform
+      - System requirements
+      - User interface requirements
+    - Examples:
+      - Performance requirements, e.g., system response time
+      - Functional requirements, e.g., require user login
+      - Interface requirements, e.g., use this screen style
+    - Ethnographic Observation
+      - Identifying and observing the user community in action
+  - Pillar 2: Guidelines
+    - Solid guidelines should be established to guide the design process
+    - Guidelines help keep the consistency for:
+      - Words, icons
+      - Screen layout
+      - Input and output
+      - Action sequences
+      - Training
+    - Example from Apple
+      - Action sequence description
+      - icon development
+    - Procedures of Developing Guidelines
+      - Provides a social process for developers
+      - Records decisions for all parties to see
+      - Promotes consistency
+      - Facilitates automation of design
+      - Allows multiple levels:
+        Rigid standards, accepted practices, flexible guidelines
+      - Announces policies for:
+        - Education: How/where to get it?
+        - Enforcement: who review and verify?
+        - Exemption: Who decides and grants? allow creative idea and new tech.
+        - Enhancement: How often and keep guideline up-to-date
+  - Pillar 3: UI Software Tools
+    - User Interface Mock-up
+      - Motivation:
+        - Users and customers may not have a nice idea of the system
+        - But unfortunately, major changes to an implemented system are
+          difficult, costly and time-consuming
+        - Provides a vision for both developers and clients
+      - What is Prototype?
+        - Does not have to be functional
+        - Simply design the buttons, menus, etc
+        - Worse case: a hand-drawn picture, or use PowerPoint, Flash, etc.
+      - Why Prototype?
+        - Get feedback on our design faster, e.g., saves money
+        - Experiment with alternative designs
+        - Fix problems before code is written
+        - Keep the design centered on the user
+      - Fidelity in Prototyping
+        - refers to the level of detail (LoD)
+        - High fidelity
+          prototypes look like the final product
+        - Low fidelity
+          artists renditions with many details missing
+      - Why not start with Hi-fi?
+        - Perceptions of the tester/reviewer?
+          formal representation indicates finished nature comments on color, 
+          fonts, and alignment
+        - Time?
+          encourage precision
+          specifying details takes more time
+        - Creativity?
+          lose track of the big picture
+      - How to start with Low-fi?
+        - What are storyboards?
+          - High-level representation of important user actions & consequences
+          - Visualized story!!!
+        - Give you a script of important events
+          - leave out the details 
+          - concentrate on the important interactions
+      - Why start with Low-fi?
+        - Traditional methods take too long
+          - sketches -> prototype (real code) -> evaluate -> iterate
+        - Can simulate the prototype
+          - sketches -> evaluate -> iterate
+          - sketches act as prototypes
+        - Kindergarten implementation skills
+          - allows non-programmers to participate
+      - High-Fidelity Mockup
+        - After interface is established, still room for more mockup
+        - High-Fidelity can look much more similar to final product
+        - Paper-based may still be used OK, but most likely using
+          real code and software
+      - Prototypes Feedback
+        - Previews and feedback from prototypes is crucial
+          - Even low fidelity mockups
+          - If possible, get feedback from experts, average users
+        - Large websites carry out �pilot� launches to get feedback and find bugs
+        - Example: Google Gmail
+  - Pillar 4: 
+    - next module
+
+
+------------------------------------------
+
+- Development Methodologies
+  - Background:
+    - Up to 50% of software projects fail to achieve their goals
+    - Miscommunication between developers and clients
+  - User-centered design
+    - Focusing on the product's potential users from the very beginning 
+      and checking at each step of the way with these users to be sure 
+      they like and are comfortable with the final design
+  - Methods:
+    - IBM's Ease of Use development methodology
+      - specifies activities by roles and phases
+    - Rapid Contextual Design Method
+
+
+------------------------------------------
+
+- User studies and Observations
+  - In early stage of user interface design:
+    Observe Real world users in their home or office environment
+  - Ethnographic Observation
+    - Sends observers to people homes and offices to
+      - Quietly observe user habits and methods
+      - Ask questions
+      - Participate in activities
+    - Goal: Obtain necessary data to influence the interface design
+    - Guidelines:
+      - Preparation
+        - Understand organization policies and work culture, or the family values
+        - Familiarize yourself with existing interface and its history. 
+        - Set initial goals and prepare questions. 
+        - Gain access and permission to observe/interview.
+      - Field Study
+        - Establish rapport with managers and users. 
+        - Respect the rules of the workplace
+        - Observe/interview users in their workplace, and collect 
+          subjective/objective quantitative/qualitative data. 
+        - Follow any leads that emerge from the visits. 
+        - Record the visits.
+      - Analysis
+        - Compile the collected data in numerical, textual, and multimedia databases. 
+        - Quantify data and compile statistics. 
+        - Reduce and interpret the data. 
+        - Refine the goals and the process used.
+      - Reporting
+        - Consider multiple audiences and goals. 
+        - Prepare a report and present the findings.
+  - Participatory Design
+    - Direct involvement of the user in the design
+    - Controversial !!!
+    - Positive:
+      - more accurate information about tasks 
+      - more opportunity for users to influence design decisions 
+      - a sense of participation for the users
+      - potential for increased user acceptance of final system 
+    - Negative side: extensive user involvement may 
+      - be more costly 
+      - lengthen the implementation period 
+      - build antagonism (hostility) with people not involved or 
+        suggestions rejected
+      - force designers to compromise their design to satisfy 
+        incompetent participants 
+      - build opposition to implementation 
+      - exacerbate (make worse) personality conflicts between 
+        design-team members and users
+      - show that organizational politics and preferences of
+        certain individuals are more important than technical issues
+
+
+------------------------------------------
+
+- Legal Issues
+  - Privacy
+    - Examples: Data stored and activities being monitored
+    - UI designers
+    - UI mechanisms to control password access, identity checking, data verification, etc.
+    - Provide easily accessible and understandable privacy policies
+  - Safety and Reliability: For life critical systems
+    - UI may be responsible for life-death situations
+    - Tested to national standards for deployment
+    - Good example is for use in a hospital setting
+  - Freedom of speech
+    - Users have right to make controversial or offensive statements?
+    - Should network providers be responsible?
+  - Copyright and patent
+    - What material is eligible for copyright?
+    - Are copyrights or patents more appropriate for user interfaces?
+    - What constitutes copyright infringement? 
+    - Should user interfaces be copyrighted?
