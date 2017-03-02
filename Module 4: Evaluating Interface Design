@@ -1,0 +1,250 @@
+Module 4: Evaluating Interface Design
+=====================================
+
+- Overview: Five Topics
+  - Expert Review
+  - Usability Testing and Labs
+  - Survey Instruments
+  - Acceptance Tests
+  - Evaluation during Active Use
+
+- Introduction
+  - Motivation:
+    Designers can become so entranced with their creations that 
+    they may fail to evaluate their own designs adequately
+  - The range of evaluation plans might be from an ambitious 
+    two-year test to a few days test
+  - Budget for user evaluation
+  - Troubling aspect of testing: uncertainty remains even after 
+    exhaustive testing by multiple methods
+
+
+------------------------------------------
+
+- Expert Review
+  - entail one-half day to one week effort
+  - lengthy training period may sometimes be required to equip the experts
+  - a variety of expert review methods:
+
+    - Heuristic evaluation
+      - Expert reviewer
+        - gives personal criticism
+        - spends time evaluating your interface:
+          Gives feedback, overall impression, concerns, maybe according to
+          the eight golden rules
+      - Not a true formal approach thus the term "Heuristic" but effective
+      - often called "Discount Evaluation"
+
+    - Guidelines review
+      - Assume you have a guideline document
+      - Inspect the UI to make sure it adheres to the guidelines
+      - days or weeks to review a large interface
+      - bird's eye view:
+        all possible windows of the UI are printed out, laid out on the 
+        floor or pinned to walls
+
+    - Consistency inspection
+      - Similar to guideline review, but focus on consistency
+      - Software tools may help automate the process
+
+    - Cognitive walkthrough
+      - Ask expert reviewer to perform certain tasks, simulating users 
+        walking through the interface
+      - Either let them do it privately OR watch how they do it
+      - See if they behave they way you thought they would!
+        - Get verbal feedback
+        - User talks out loud the whole time explaining his/her thought 
+          process
+      - May see usage patterns
+
+    - Metaphors of human thinking
+      - Experts conduct an inspection on how users think when they 
+        interact with the user interface
+      - Consider five aspects of human thinking
+
+    - Formal usability inspection
+      - Courtroom like setting
+      - Expert reviewers ask questions to the designers and the designers 
+        have to justify their design decisions in an adversarial manner.  
+      - A lengthy process, but can be educational to inexperience designers
+
+  - Remarks on Expert Review:
+    - Can be scheduled at several points in the development process when 
+      experts are available and when the design team is ready for feedback.
+    - Different experts tend to find different problems, so 3-5 expert 
+      reviewers can be highly productive: complementary usability testing
+    - Dangers with expert reviews:
+      - The experts may not have an adequate understanding of the task 
+        domain or user communities.
+      - Coming in many flavors, experts may give conflicting advice
+      - Even experienced expert reviewers have great difficulty knowing 
+        how typical users, especially first-time users will really behave.
+    - Choosing Experts:
+      - Familiar with the project
+      - long-term relationship with your organization
+
+
+------------------------------------------
+
+- Usability Testing and Labs
+  - Background
+    - emergence since the early 1980s
+    - movement towards usability testing stimulated the construction of 
+      usability laboratories
+  - What is Usability Laboratory
+    - Space:
+      - two 10 by 10 foot areas
+      - one for the participants to do their work; and
+      - another, separated by a half-silvered mirror, for the testers 
+        and observers
+    - Staff:
+      - One or more people with expertise in testing and UI design
+      - May serve 10 to 15 projects per year in the organization
+      - Meet the UI architect/manager at the start to design the test 
+        plan with schedule and budget; participate in early design and 
+        provide information on software tools or literature references
+    - Live Lab:
+      - Google Space in London's Heathrow Airport
+      - most-up-to-date products
+  - The Participants
+    - Choosing Participants
+      - To represent the intended user communities
+      - With attention to background in computing, experience with the 
+        task, motivation, education, and ability with the natural 
+        language used in the interface
+    - Before/during the test, the participants should
+      - always be treated with respect
+      - Be informed that it is not they who are being tested, but it is 
+        the software and user interface that are under study
+      - should be told about what they will be doing and how long they 
+        will be expected to stay
+      - always be voluntary, and informed consent should be obtained.
+  - Techniques: Recording
+    - What to be recorded:
+      - User activities such as typing, using mouse, reading screens, 
+        reading manuals, etc.
+      - Timestamping on them to know also the time taken
+    - Basic tools:
+      - Logging Software
+      - VideoTaping
+        - Reviewing videotaping is tedious, so careful logging and 
+          annotation is vital on finding critical incidents
+        - Tools for automatic time stamping activities
+        - Participants may be anxious about the video camera at the 
+          start of the test... few minutes later, focusing on the tasks
+      - ThinkAloud
+        - participants carry out tasks while saying what they are 
+          thinking, and tester records thoughts
+        - Tester does not take over or give instructions, but prompt and 
+          listen for clues how they are dealing with the interface
+      - Eye tracking
+        - Show where the participants gazed at the screen and for how long
+        - Results can be shown in  color-coded heat maps
+          - Areas of screen being viewed and which areas are being ignored.
+        - Cannot use with Think Aloud -> invalid results
+  - Various Usability Testing
+    - Paper mockups
+      - Early usability study (on low-fi prototype); inexpensive and rapid
+      - Flipping the (mockup of) screen displays to get reactions to wording, 
+        layout, etc.
+    - Discount usability testing
+      - Quick and dirty approach with only 3 to 6 test participants
+    - Competitive usability testing
+      - Comparing new interface to previous versions or similar products; 
+        few participants
+    - Universal usability testing
+      - Diverse users, hardware/software platform (internet browsers, OS), 
+        networks, etc.
+    - Field test and portable labs
+      - Test in realistic environments for a fixed trial period (usually use 
+        logging software).
+      - Supply users test versions of new software or consumer products
+    - Remote usability testing
+      - Tests online; more participants but less control over user behavior 
+        and observation of reaction
+    - Can-you-break-this tests
+      - Game design: challenge energetic teenagers to beat new games, 
+        finding fatal flaws
+
+
+------------------------------------------
+
+- Survey Instruments
+  - Written user surveys are a familiar, inexpensive and generally 
+    acceptable companion for usability tests and expert reviews.
+  - Online surveys
+    - avoid printing cost and extra effort for distribution and collection 
+      of paper
+    - Many people prefer to answer a brief survey displayed on a screen, 
+      instead of filling in and returning a printed form
+  - Keys to successful surveys
+    - Clear goals in advance
+    - Development of focused items that help attain the goals
+  - Preparation:
+    - Important to pre-test or pilot-test prior to actual use
+    - Users could be asked for their subjective impressions about specific 
+      aspects of the interface
+    - Need to ascertain characteristics about the users
+    - Use age-appropriate language, e.g., to children
+  - Contents:
+    - Commonly used Likert scale
+    - Bipolar semantically anchored items: 1-to-7 scales
+    - Another approach is to ask users to evaluate interface issues
+    - Learn by example
+
+
+------------------------------------------
+
+- Acceptance Tests
+  - Rather than the vague and misleading criterion of "user friendly," 
+    use measurable criteria for the user interface:
+    - Time to learn specific functions 
+    - Speed of task performance 
+    - Rate of errors by users 
+    - Human retention of commands over time 
+    - Subjective user satisfaction 
+  - In a large interface, may be 8 or 10 such tests to carry out on 
+    different components of the interface and with different user 
+    communities. 
+  - Different from usability test, outside testing organizations are 
+    often appropriate to ensure neutrality
+  - Goal: not to detect flaws, but rather to verify requirements
+  - Once acceptance testing has been successful, there may be a period 
+    of field testing before national or international distribution.
+
+
+------------------------------------------
+
+- Evaluation during Active Use
+  - Successful active use requires constant attention from dedicated 
+    managers, user-services personnel, and maintenance staff. 
+  - Perfection is not attainable, but percentage improvements are 
+    possible
+  - Five strategies:
+    - Interviews and focus group discussions
+      - Interviews with individual users can be productive because 
+        the interviewer can pursue specific issues of concern.
+      - Group discussions (focus groups) are valuable to ascertain 
+        the universality of comments. 
+    - Continuous user-performance data logging 
+      - Managers collect data about
+        - The patterns of system usage
+        - Speed of user performance
+        - Rate of errors
+        - Frequency of request for online assistance
+      - A major benefit is guidance to system maintainers in 
+        optimizing performance and reducing costs for all participants
+      - Privacy Issue: inform and get permission from users ahead
+    - Online or telephone consultants 
+      - Users feel reassured if they know there is a human assistance
+      - On some network systems, the consultants can monitor the user's 
+        computer and see the same displays that the user sees 
+    - Online suggestion box or e-mail trouble reporting 
+      - Email or web reports to the maintainers or designers. 
+      - User bug reports, e.g., web-based tools such as Bugzilla
+    - Discussion groups, wikis, and newsgroups
+      - Permit postings of open messages and questions
+      - Some are independent, e.g. America Online and Yahoo!
+      - Users can scan (or search) for relevant topics (user-generated contents)
+      - Need some moderators
+      - A sense of community
