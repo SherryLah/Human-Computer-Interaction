@@ -1,211 +1,80 @@
 
-Module 1: Usability
-===================
+Module 1: Introduction
+======================
 
-- Introduction: Background
-  - HCI is an interdisciplinary Design Science
-  - Payoff: Social-Computer Interaction
-  - UI affects individual users lives and communities
-  - Factors for UI design are incredibly dynamic
-    - for different displays
-    - for different user groups: novice to expert and elderly to children
-    - market pressure
+- HCI is an interdisciplinary subject
+  - Involves technology, design, sociology, psychology, anthropology, etc.
+  - Most of us are from engineering or IT and come with a strong background 
+    in technology and little else
 
-- Usability requirements
-  - Basics:
-    - thoughtful planning
-    - sensitivity to user needs
-    - devotion to requirement analysis
-    - diligent testing
-    - while keeping within budget and schedule
-  - Definitions for "User-friendly" - subjective and vague
-  - The U.S. Military Standard
-    - Achieve required performance
-    - Minimize skill and personnel requirements and training time
-    - Achieve required reliability
-    - Foster design standardization
-  - Goals for requirements analysis
-    - Ascertain the user's needs
-      - Include all tasks
-        - Common tasks are easy to identify
-        - Occasional or exceptional
-      - Functionality must match need
-        - Inadequate functionality frustrate users
-        - Excessive - complexity makes implementation, maintenance 
-          and learning more difficult
-      - Usage scenario analysis
-    - Ensure reliability
-      - Actions must function as specified
-      - data displayed must reflect the actual
-      - user's sense of mistrust
-      - system available as often as possible
-      - not introduce errors
-      - ensure user's privacy and data security
-    - Promote appropriate standardization, integration, consistency, and portability
-      - standardization
-        - use pre-existing industry standards
-        - Slight differences: increase learning times and errors
-        - Gross differences: substantial retraining and burden users
-      - Integration
-        - run across different software tools and packages
-        - existing tools/systems
-      - Consistency
-        - compatibility across different product versions
-        - compatibility with related paper and other non-computer based systems
-        - use common action sequences, terms, units, colors, etc.
-      - Portability
-        - allow for the user to convert data across multiple software and 
-          hardware environments
-    - Complete projects on time and within budget
-      - late: other projects may be affected
-      - costly: competitors may capture the market
+- What is HCI (Human-Computer Interaction)?
+  - Human -> input -> Computer -> feedback -> Human -> ...
+  - Concerned with Design, Evaluation, and Implementation
+  - Human
+    - Users, single, group working together, sequence
+    - User tries to complete a task
+  - Computer
+    - Technology, not just Desktop computer
+    - Systems: Large-scale computer, Process control, Embedded
+  - Interaction
+    - Communication, direct/indirect
+    - Dialogue + feedback/batch
+    - Task oriented
 
-- Usability measurements
-  - ISO 9241:
-    - Effectiveness
-    - Efficiency
-    - Satisfaction
-  - Five human factors central to community evaluation
-    - Time to learn
-    - Speed of performance
-    - Rate of errors by users
-    - Retention over time
-    - Subjective satisfaction
-  - Forced tradeoffs
-    - If lengthy learning is permitted
-      task-performance times may be reduced by use of macros or shortcuts
-    - If the rate of errors is to be kept extremely low
-      speed of performance may have to be sacrificed
-    - Project managers and designers who are aware of the tradeoffs can 
-      be more effective in making their choices explicit and public
-  - User studies
-    - Costly
-    - But part of any serious large-scale UI development
-    - Gmail, Vista, etc, all release Betas
-  - Survey (One simple strategy)
-    - User profile and multiple-choice questions
-    - Online survey, e.g., through Facebook
+- Who Contributes to HCI?
+  - Computer scientists
+  - Psychologists
+  - Software engineer
+  - Linguists and philosophers
+  - Artificial intelligence researchers
+  - Ergonomists
+  - Sociologists and anthropologists
 
-- Motivations for different types of UIs
-  - Life-critical systems 
-    - Applications: 
-      Air traffic control, nuclear reactors, power utilities, 
-      police & fire dispatch systems 
-    - Requirements: 
-      Reliability and effectiveness, error free performance
-    - Not as important:
-      Cost, training time, user satisfaction
-  - Industrial and commercial uses 
-    - Applications:
-      Banking, insurance, inventory management, ...
-    - Requirements: 
-      - Ease of learning
-      - Speed and error rates
-      - Subjective satisfaction is fairly important
-      - Internationalization
-      - Speed of performance
-    - drive/tradeoff by total cost
-  - Office, home, and entertainment
-    - Applications
-      Word processing, electronic mail, search engines, social 
-      networking tools, websites for user-generated contents, etc.
-    - Requirements:
-      - Ease of learning, low error rates, and subjective satisfaction
-      - Infrequently-used applications - intuitive, online help
-      - Market competition -> low cost
-      - Choosing levels of functionality
-        - layered or level-structures with graceful evolution
-  - Exploratory, creative, and collaborative systems
-    - Applications (For Creativity):
-      Web browsers, search engines, artist toolkits, architectural 
-      design, software development, music composition, and scientific 
-      modeling systems
-    - Issues:
-      - Users may be knowledgeable in the task domain
-        but novices in the underlying computer concepts
-      - Remove the "Computer from the Work"
-  - Sociotechnical systems
-    - Applications (For Many People):
-      Voting, health support, identity verification, crime reporting
-    - Requirements:
-      - Trust, privacy, responsibility, and security are issues
-      - Verifiable sources and status feedback 
-      - Ease of learning
-      - Administrators: detect unusual usage patterns 
+- Why Study HCI?
+  - Major part of work for real software 
+  - At a company you work on real software
+  - Bad UIs cost
+  - User interfaces are hard to get right
 
-- Universal Usability
-  - Users are diverse
-    - different abilities, background, motivations, personalities, 
-      culture, work styles, etc.
-    - ultimate goal:
-      try to make interfaces as usable and enjoyable by everyone 
-    - understanding the difference is vital for expanding market share
-      (International Consumer Market)
-  - Different considerations:
+- Why Hard to Design UIs?
+  - No silver bullet
+    (straightforward solution to have extreme effectiveness,
+     for productivity, quality and control)
+  - User Interface design is a creative process
+  - Designers have difficulty thinking like users
+  - It is easy to make things hard.
+    It is hard to make things easy.
 
-    1. Physical abilities and physical workplaces
-       - anthropometry: human dimensions from research
-         5 to 95 percentile design ranges, sizes: head, mouth, etc.
-       - no average user
-       - dynamic measures: reach distance, strength, speed, etc.
-       - other issues:
-         - Screen-brightness preferences vary substantially
-         - Vision: depth, contrast, color blindness, motion sensitivity, 
-           and visual fatigue
-         - Touch: keyboard and touchscreen sensitivity 
-         - Hearing: audio clues must be distinct
-         - Hand control
-       - workplace design issues:
-         - Human Factors Engineering of Computer Workstations (HFES, 2007)
+- The Inmates are Running the Asylum
+  - Author: Alan Cooper
+  - Part of the problem is that programmers and Engineers are in 
+    charge of designing software, but engineers often are not 
+    representative of the users
 
-    2. Cognitive and perceptual abilities
-       - human ability to interpret sensory input rapidly and to 
-         initiate complex actions makes modern computer systems possible
-       - Ergonomics Abstracts
-       - background experience and knowledge in the task domain and 
-         the interface domain play key roles in learning and performance
+- User Population Distribution
+  - Power User
+    People know&use the advanced features
+    (Such users are often engineers, and the ones who write software)
+  - Computer Literate
+  - Everyone else
 
-    3. Personality differences
-       - Designers must be aware that populations are subdivided and that 
-         these subdivisions have various responses to different stimuli
-       - Myers-Briggs Type Indicator (MBTI) 
-         - extroversion vs introversion 
-         - sensing vs intuition 
-         - perceptive vs judging 
-         - feeling vs thinking 
+- Features vs. Easy to Use
+  - One problem: software developers tend to equate features with design
+  - This is not necessarily the case
+  - Sometimes, less is more . . .MP3 player again...
 
-    4. Cultural and international diversity
-       - Kinds of cultural and international diversity
-       - Internationalization: promote effective designs
-       - Product Re-naming
+- Product Triangle
+  - Capability (Engineering)
+  - Viability (Business)
+  - Desirability (Design)
 
-    5. Users with disabilities
-       - Over half a billion in the world
-       - Early planning is more cost efficient than adding on later
-       - "Americans With Disabilities" Act
-       - gifts of computing:
-         - Screen magnification
-         - text-to-speech (TTS) conversion
-         - speech recognition
-         - Hearing: Conversion of audio tones to visual feedbacks
-       - temporarily disabled
+- Rethinking Design
+  - Users Goal
+  - Corporate Goal
+  - Programmers Goal
 
-    6. Considerations for Elderly
-       - Reduced: Motor skills, Perception, etc.
-       - Though technology experience is varied (often uninformed), 
-         strong practice skills (hand-eye, problem solving, etc.)
-       - designers in many fields: serve older adult citizens
-       - interfaces to golden-age software
-         e.g., BrooksTalk: the Speech Project
-
-    7. Considerations for Children
-       - Emphasize entertainment and education
-       - Abilities change with age
-         - Evolving dexterity
-         - Emerging literacy
-         - Low capacity for abstraction
-       - Teenagers are a special group
-         - Next generation
-         - Beta tester for new interfaces, trends
-         - Hand phones, text messages, simulations, fantasy games, virtual worlds
-       - Requires Safety - access to children
+- Recommendations
+  - Have design at the Heart
+  - Separate UI from Programming
+  - People-oriented design
+  - software engineers: I am not the user
